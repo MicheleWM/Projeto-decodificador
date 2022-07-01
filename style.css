@@ -1,0 +1,291 @@
+body {
+	background-color: #dda0dd;
+}
+
+.logoalura {
+	position: absolute;
+	left: 3%;
+	right: 10%;
+	top: 3%;
+	bottom: 3%;
+}
+
+.main {
+	display: flex;
+	margin-left: 80px;
+	margin-bottom: 50px;
+}
+
+.input-texto {
+	width: 400px;
+	height: 150px;
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 35px;
+	line-height: 150%;
+	margin-top: 150px;
+	margin-left: 20px;
+	color: #adff2f;
+	border: none;
+	background-color: transparent;
+	resize: none;
+}
+
+
+.input-texto:focus { 
+  	
+  	border: none;
+  	outline: none;
+}
+
+textarea::placeholder {
+	color: #adff2f;
+}
+
+.informacao {
+	width: 228px;
+	height: 18px;
+	margin-left: 30px;
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+	font-size: 12px;
+	line-height: 150%;
+	color: #495057;
+	opacity: 0.8;
+	font-weight: 400;
+
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}
+
+.fa-solid {
+	color: #495057;
+}
+
+.botoes {
+	 
+	display: flex;
+	box-sizing: border-box;
+
+}
+
+.criptografar {
+	
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 24px;
+	gap: 8px;
+	margin-top: 250px;
+
+	
+	width: 328px;
+    height: 67px;
+	background-color: #adff2f;
+	border-radius: 40px;
+	
+	
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 19px;
+    text-align: center;
+	color: #ff69b4;
+
+	flex: none;
+    order: 0;
+	flex-grow: 0;
+	border: none;
+	
+	transition: 1s all;
+	cursor: pointer;
+
+}
+.criptografar:hover {
+	background: #5f0475;
+	transform: scale(1.1);
+
+}
+
+
+.descriptografar {
+	
+	box-sizing: border-box;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 24px;
+	gap: 8px;
+	margin-top: 250px;
+
+	width: 328px;
+	height: 67px;
+	margin-left: 30px;
+	background: #adff2f;
+	color: #ff69b4;
+	border-radius: 40px;
+	border: 1px solid #0A3871;
+	
+	font-family: 'Inter', sans-serif;
+	font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 19px;
+    text-align: center;
+	border: none;
+	transition: 1s all;
+	cursor: pointer;
+	
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}
+.descriptografar:hover {
+	background: #5f0475;
+	transform: scale(1.1);
+}
+
+.caixa {
+    
+    position: absolute;
+    width: 380px;
+    height: 680px;
+    left: 70%;
+    top: 20px;
+    padding-left: 20px;
+    padding-top: 80px;
+
+    background: #9400d3;
+  
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+  .caixa h2 {
+	  
+	position: static;
+	width: 336px;
+	height: 58px;
+	left: 0px;
+	top: 0px;
+
+	font-family: Inter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 27px;
+	line-height: 120%;
+	 
+	text-align: center;
+
+    color: #f8f8ff;
+	background: #9400d3;
+
+    flex: none;
+	order: 0;
+	align-self: stretch;
+	flex-grow: 0;
+	margin: 16px 0px;
+}
+
+.caixa h3 {
+  
+    position: static;
+    width: 336px;
+    height: 48px;
+    left: 0px;
+    top: 74px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+
+    text-align: center;
+
+    color: #f8f8ff;
+    background: #9400d3;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+.mensagem {
+  
+    position: absolute;
+    width: 350px;
+    height: 550px;
+    left: 24px;
+    top: 52px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 150%;
+  
+    resize: none;
+
+    color: #ffffff;
+    border:none;
+    background:transparent;
+
+}
+
+.mensagem:focus { 
+  	
+  	border: none;
+  	outline: none;
+}
+
+.copiar {
+  
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+	position: absolute;
+    width: 336px;
+    height: 67px;
+    left: 25px;
+    top: 620px;
+	border: none;
+	border-radius: 40px;
+ 
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 19px;
+    text-align: center;
+  	color:	#ff69b4;
+    background-color:#adff2f;
+    transition: 1s all;
+	cursor: pointer;
+  
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 0px 8px;
+    justify-content: center;
+}
+.copiar:hover {
+	background: #ffffff;
+	transform: scale(1.1);
+}
+
+.copyright {
+	font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 19px;
+    text-align: center;
+    color: 	#f8f8ff;
+
+}
+
+
+
+
+@media only screen and (min-device-width : 481px) and (max-device-width : 1023px)

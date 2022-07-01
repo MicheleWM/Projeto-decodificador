@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title> 
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@100;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4186bb3063.js" crossorigin="anonymous"></script>
+    
+</head>
+    <body>
+        <header>
+            <img class="logoalura" src="logoalura.png" alt="Logo da Alura com a inicial da letra A">
+        </header>
+            
+            <main class="main">
+                <section>
+                        <textarea class="input-texto" id="input1" type="text" name="texto-input" maxlength="150"  cols="40" rows="6" placeholder="Digite seu texto aqui:"></textarea> 
+                            <div>
+                                <h6 class="informacao"><i class="fa-solid fa-circle-exclamation"></i> Apenas letras minúsculas e sem acento</h6>
+                            </div>
+                            <div class="botoes">
+                                <button class="criptografar" onclick="btnCriptografar()">Criptografar</button>
+                                <button class="descriptografar" onclick="btnDescriptografar()">Descriptografar</button>
+                            </div>
+                </section>
+                <section class="caixa">
+                    <div id="desaparece-div" class="mensagem-caixa">
+                        <img src="boneco.png">
+                        <h2>Nenhuma Mensagem encontrada</h2>
+                        <h3>Digite o texto que você deseja criptografar ou descriptografar.</h3>
+                    </div>
+                    <div id="aparece-div">
+                        <textarea class="mensagem" id="mensagem" cols="18" rows="8"></textarea>
+                        <input class="copiar" type="submit" value="Copiar" id="botao-copia">
+                    </div>
+                </section>
+            </main>
+                <script src="script.js"></script>
+    </body>
+    <footer>
+        <p class="copyright">&copy; Michele Moura - 2022 </p>
+    </footer>
+</html>
