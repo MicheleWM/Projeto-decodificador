@@ -4,7 +4,7 @@ Nesse projeto é possível criptografar e descriptografar palavras e texto.
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
-| :sparkles: Nome        | **Titulo do meu projeto**
+| :sparkles: Nome        | **Decodificador de texto**
 | :label: Tecnologias | HTML5 CSS3, JavaScript
 | :rocket: URL         | https://michelewm.github.io/Projeto-decodificador/
 
