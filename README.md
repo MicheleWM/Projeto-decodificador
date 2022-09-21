@@ -10,7 +10,7 @@ Nesse projeto é possível criptografar e descriptografar palavras e texto.
 
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![decodificador-print](https://user-images.githubusercontent.com/103668178/191300074-e3ffd83c-3c4c-4c2a-a13c-bde978a3da1c.png#vitrinedev)
+![](https://user-images.githubusercontent.com/103668178/191300074-e3ffd83c-3c4c-4c2a-a13c-bde978a3da1c.png#vitrinedev)
 
 ## 
 
